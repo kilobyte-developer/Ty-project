@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+* {
+    font-family: 'Lexend', sans-serif;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to top, #6a93cb, #1e5799); /* Blue gradient */
+    color: #333;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+    width: 100%;
+    box-sizing: border-box; /* Ensure padding and border are included in width */
+}
+
+.container {
+    max-width: 400px;
+    margin: auto;
+    padding: 30px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    box-sizing: border-box; /* Ensure padding and border are included in width */
+    text-align: left; /* Ensure text alignment to the left */
+}
+
+h1 {
+    text-align: center;
+    color: #1e5799;
+    margin-bottom: 20px;
+}
+
+.form-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Ensure form fields align to the left */
+}
+
+.login-form label {
+    font-size: 1rem;
+    margin-top: 10px;
+    color: #1e5799;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 2px solid #1e5799;
+    border-radius: 5px;
+    box-sizing: border-box; /* Ensure padding is included in width */
+}
+
+.login-form button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #1e5799;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+    align-self: center; /* Center the button */
+}
+
+.login-form button:hover {
+    background-color: #1b4d85;
+}
+
+.forgot-password {
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: #1e5799;
+    text-decoration: none;
+}
+
+.forgot-password:hover {
+    color: #1b4d85;
+}

@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+* {
+    font-family: 'Lexend', sans-serif;
+    box-sizing: border-box;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to top, #6a93cb, #1e5799); /* Blue gradient */
+    color: #333;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+    width: 100%;
+    box-sizing: border-box; /* Ensure padding and border are included in width */
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 30px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    box-sizing: border-box; /* Ensure padding and border are included in width */
+    text-align: left; /* Ensure text alignment to the left */
+}
+
+h1 {
+    text-align: center;
+    color: #1e5799;
+    margin-bottom: 20px;
+}
+
+.progress-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.progress-list li {
+    margin: 10px 0;
+}
+
+.progress-list a {
+    color: #1e5799;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.progress-list a:hover {
+    text-decoration: underline;
+    color: #1b4d85;
+}

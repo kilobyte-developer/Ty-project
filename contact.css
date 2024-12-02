@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+* {
+    font-family: 'Lexend', sans-serif;
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lexend', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to top, #6a93cb, #1e5799);
+    /* Blue gradient */
+    color: #333;
+    overflow-x: hidden;
+    /* Prevent horizontal scrolling */
+    width: 100%;
+    box-sizing: border-box;
+    /* Ensure padding and border are included in width */
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 30px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    box-sizing: border-box;
+    /* Ensure padding and border are included in width */
+}
+
+h1 {
+    text-align: center;
+    color: #1e5799;
+    margin-bottom: 20px;
+}
+
+.form-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-right: 30px;
+}
+
+.contact-form label {
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 2px solid #1e5799;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #1e5799;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+}
+
+.contact-form button:hover {
+    background-color: #1b4d85;
+}
+
+.separator {
+    width: 2px;
+    height: 400px;
+    background-color: #0b6bdf;
+    /* Make the separator line more visible */
+    margin: 0 30px;
+    /* Add space around the separator */
+}
+
+.contact-info {
+    flex: 1;
+    margin-left: 30px;
+    /* Add space on the left side of the contact info */
+}
+
+.contact-info h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #1e5799;
+}
+
+.contact-info p {
+    margin: 10px 0;
+    /* Increase space between paragraphs */
+    font-size: 1rem;
+}
+
+.contact-info a {
+    color: inherit;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.contact-info a:hover {
+    color: #1e5799;
+}
+
+.social-media {
+    margin-top: 20px;
+    /* Add space above social media links */
+}
+
+.social-media a {
+    font-size: 1.5rem;
+    margin: 0 10px;
+    color: #1e5799;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social-media a:hover {
+    color: #1e5799;
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        padding: 20px;
+    }
+
+    .form-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-form {
+        margin-right: 0;
+    }
+
+    .separator {
+        display: none;
+    }
+
+    .contact-info {
+        text-align: center;
+    }
+
+    .contact-info p {
+        font-size: 0.9rem;
+    }
+
+    .contact-form label,
+    .contact-form input,
+    .contact-form textarea {
+        font-size: 0.9rem;
+    }
+
+    .contact-form button {
+        padding: 8px 16px;
+        font-size: 0.9rem;
+    }
+}
