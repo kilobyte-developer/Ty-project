@@ -13,7 +13,7 @@ html {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: linear-gradient(to top, #6a93cb, #1e5799);
+    background: linear-gradient(to top, #d6b58c, #e6b07c);
     /* Blue gradient */
     color: #333;
     overflow-x: hidden;
@@ -37,7 +37,7 @@ html {
 
 h1 {
     text-align: center;
-    color: #1e5799;
+    color: #714837;
     margin-bottom: 20px;
 }
 
@@ -65,14 +65,14 @@ h1 {
     width: 100%;
     padding: 10px;
     margin: 5px 0;
-    border: 2px solid #1e5799;
+    border: 2px solid #714837;
     border-radius: 5px;
 }
 
 .contact-form button {
     padding: 10px 20px;
     font-size: 1rem;
-    background-color: #1e5799;
+    background-color: #e6b07c;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -82,7 +82,7 @@ h1 {
 }
 
 .contact-form button:hover {
-    background-color: #1b4d85;
+    background-color: #d6b58c;
 }
 
 .separator {
